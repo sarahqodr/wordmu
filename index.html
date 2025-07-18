@@ -578,8 +578,10 @@ function showWord() {
       updatePhaseMessage(true);
     } else {
       document.getElementById("word").innerHTML = `
-  <div style="margin-bottom: 0.1px;">Well done!🎉</div>
-  <div style="font-size: 0.6em; margin-top: 0;">Level 2 is coming</div>
+  <div style="margin-bottom: 0.1px;">🎉Well done!👏</div>
+<div>
+  <a href="https://sarahqodr.github.io/wordmu-level2/" style="color: #007bff; text-decoration: underline;">Continue to Level 2?</a>
+</div>
 `;
       updateCounter();
       updatePhaseMessage(false);
